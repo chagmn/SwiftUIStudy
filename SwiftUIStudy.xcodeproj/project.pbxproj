@@ -23,6 +23,8 @@
 		76CC9A2D2872E0CF00D434C9 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CC9A2C2872E0CF00D434C9 /* OtherView.swift */; };
 		76CC9A2F2872E28C00D434C9 /* SettingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CC9A2E2872E28C00D434C9 /* SettingMenu.swift */; };
 		76CC9A312872E75600D434C9 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CC9A302872E75600D434C9 /* SettingView.swift */; };
+		76CC9A332872ECFE00D434C9 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CC9A322872ECFE00D434C9 /* Sample.swift */; };
+		76CC9A352872F04A00D434C9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CC9A342872F04A00D434C9 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		76CC9A2C2872E0CF00D434C9 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 		76CC9A2E2872E28C00D434C9 /* SettingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMenu.swift; sourceTree = "<group>"; };
 		76CC9A302872E75600D434C9 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		76CC9A322872ECFE00D434C9 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		76CC9A342872F04A00D434C9 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 			children = (
 				76CC9A232872CC0100D434C9 /* Model */,
 				76CC9A172872C68F00D434C9 /* Scenes */,
+				76CC9A322872ECFE00D434C9 /* Sample.swift */,
 			);
 			path = "Cafe App";
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 				76CC9A242872D34100D434C9 /* HomeHeaderView.swift */,
 				76CC9A182872C6A000D434C9 /* MenuSuggestionSectionView.swift */,
 				76CC9A1F2872CBC700D434C9 /* EventSectionView.swift */,
+				76CC9A342872F04A00D434C9 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -224,6 +230,7 @@
 				76CC9A222872CBD500D434C9 /* Event.swift in Sources */,
 				76CC9A252872D34100D434C9 /* HomeHeaderView.swift in Sources */,
 				76CC9A152872BF4B00D434C9 /* Tab.swift in Sources */,
+				76CC9A352872F04A00D434C9 /* HomeViewModel.swift in Sources */,
 				76CC9A312872E75600D434C9 /* SettingView.swift in Sources */,
 				76CC9A272872D40300D434C9 /* HomeView.swift in Sources */,
 				76CC9A092872B9E300D434C9 /* MainTabView.swift in Sources */,
@@ -231,6 +238,7 @@
 				76CC9A072872B9E300D434C9 /* SwiftUIStudyApp.swift in Sources */,
 				76CC9A202872CBC700D434C9 /* EventSectionView.swift in Sources */,
 				76CC9A1C2872C71E00D434C9 /* Study MainView.swift in Sources */,
+				76CC9A332872ECFE00D434C9 /* Sample.swift in Sources */,
 				76CC9A192872C6A000D434C9 /* MenuSuggestionSectionView.swift in Sources */,
 				76CC9A2F2872E28C00D434C9 /* SettingMenu.swift in Sources */,
 				76CC9A2A2872D73100D434C9 /* User.swift in Sources */,
