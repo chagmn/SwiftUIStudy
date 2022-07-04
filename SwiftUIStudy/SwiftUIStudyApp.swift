@@ -11,8 +11,7 @@ import SwiftUI
 struct SwiftUIStudyApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
-                .accentColor(.green)
+            Study_MainView()
         }
     }
 }

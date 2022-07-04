@@ -7,19 +7,21 @@
 
 import SwiftUI
 
-struct MainView: View {
+struct MainTabView: View {
     var body: some View {
         TabView {
-            Text("Home")
+            HomeView()
                 .tabItem {
                     Tab.home.imageItem
                     Tab.home.tabTextItem
                 }
-            Text("Other")
+                .navigationBarHidden(false)
+            OtherView()
                 .tabItem {
                     Tab.other.imageItem
                     Tab.other.tabTextItem
                 }
+                .navigationBarHidden(true)
         }
         .foregroundColor(.white)
     }
@@ -27,6 +29,6 @@ struct MainView: View {
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView()
+        MainTabView()
     }
 }

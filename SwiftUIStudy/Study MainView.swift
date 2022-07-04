@@ -14,7 +14,8 @@ struct Study_MainView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink("1. Cafe App", destination: MainView())
+                NavigationLink("1. Cafe App", destination: MainTabView()
+                    .accentColor(.green))
             }
             .navigationTitle("")
         }
